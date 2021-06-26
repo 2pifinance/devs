@@ -1,7 +1,17 @@
 body {
   background-image: url(../public/images/logo.svg);
-  background-position: 135% 15%;
+  background-position: 165% 5%;
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 75%;
   background-attachment: fixed;
+}
+
+@include media-breakpoint-up(sm) {
+  body {
+    background-image: url(../public/images/logo.svg);
+    background-position: 135% 15%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-attachment: fixed;
+  }
 }

@@ -23,17 +23,17 @@ export default function Home() {
       </Head>
 
       <header className="mt-5 pt-5">
-        <div className="row">
-          <div className="col-6">
-            <p className="h4 text-info text-uppercase">
+        <div className="row mt-5 pt-5 mt-sm-0 mt-sm-0">
+          <div className="col-12 col-sm-6 mt-5 mt-sm-0">
+            <p className="h3 text-info text-uppercase">
               Coming soon
             </p>
 
-            <h1 className="h1 text-primary fw-bold my-4">
+            <h1 className="display-1 text-primary fw-bold mb-4">
               2pi.finance
             </h1>
 
-            <h2 className="h4 mb-5 fw-bold text-info">
+            <h2 className="h4 mb-4 fw-bold text-info">
               The easiest way for developers to connect their app to DeFi
             </h2>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
 
       <div className="row">
         <div className="col-12 col-sm-6">
-          <p className="h5 text-muted mb-4">
+          <p className="h6 text-muted mb-4">
             Connect your app to our DeFi API.
             Build engaging and next-generation products your users will love.
             From lending, to investing directly on DeFi via your own app.
