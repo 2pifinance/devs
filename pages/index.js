@@ -137,10 +137,10 @@ export default function Home() {
               </button>
             </div>
           </form>
+
+          {renderAlert()}
         </div>
       </div>
-
-      {renderAlert()}
     </div>
   )
 }
